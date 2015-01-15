@@ -4,8 +4,8 @@ Created on Apr 20, 2014
 @author: Andrew
 '''
 
-import CA04.prod.RemoteTerminal as RT
-import CA05.prod.Satellite as SAT
+import prod.RemoteTerminal as RT
+import prod.Satellite as SAT
 
 myRemTerm = RT.RemoteTerminal(5)
 myRemTerm2 = RT.RemoteTerminal(5)

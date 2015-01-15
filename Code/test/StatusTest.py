@@ -8,7 +8,7 @@
 '''
 import unittest
 
-import CA04.prod.Status as status
+import prod.Status as status
 
 
 class statusTest(unittest.TestCase):

@@ -9,7 +9,7 @@
 '''
 import unittest
 
-import CA04.prod.Data as data
+import prod.Data as data
 
 class dataTest(unittest.TestCase):
 

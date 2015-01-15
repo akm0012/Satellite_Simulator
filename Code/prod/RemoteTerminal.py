@@ -8,10 +8,10 @@
     
     LOC: 95
 '''
-from CA04.prod import Bus as bus
-from CA04.prod import Command as command
-from CA04.prod import Status as status
-from CA04.prod import Data as data
+from prod import Bus as bus
+from prod import Command as command
+from prod import Status as status
+from prod import Data as data
 
 from random import randrange
 

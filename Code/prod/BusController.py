@@ -10,8 +10,8 @@
     LOC: 113
 '''
 
-import CA04.prod.Command as Command
-import CA04.prod.Bus as Bus
+import prod.Command as Command
+import prod.Bus as Bus
 
 class BusController(object):
     
@@ -77,7 +77,7 @@ class BusController(object):
     def linkWithSatellite(self, satelliteIn):
         
         # Needed to put import here to avoid a circular import reference
-        import CA05.prod.Satellite as Sat
+        import prod.Satellite as Sat
         
         if (not isinstance(satelliteIn, Sat.Satellite)):
             raise ValueError("BusController.linkWithSatellite:  Parameter must be a valid Satellite.")

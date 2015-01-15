@@ -8,7 +8,7 @@
 '''
 import unittest
 
-import CA04.prod.Command as command
+import prod.Command as command
 
 class commandTest(unittest.TestCase):
 

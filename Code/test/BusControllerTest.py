@@ -8,9 +8,9 @@
 '''
 import unittest
 
-import CA05.prod.BusController as BusController
-import CA04.prod.RemoteTerminal as RemoteTerminal
-import CA05.prod.Satellite as Satellite
+import prod.BusController as BusController
+import prod.RemoteTerminal as RemoteTerminal
+import prod.Satellite as Satellite
 
 
 

@@ -8,11 +8,11 @@
 '''
 import unittest
 
-import CA04.prod.Bus as bus
-import CA04.prod.Command as command
-import CA04.prod.Status as status
-import CA04.prod.Data as data
-import CA04.prod.RemoteTerminal as remoteTerminal
+import prod.Bus as bus
+import prod.Command as command
+import prod.Status as status
+import prod.Data as data
+import prod.RemoteTerminal as remoteTerminal
 
 class remoteTerminalTest(unittest.TestCase):
 

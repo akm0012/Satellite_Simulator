@@ -8,9 +8,9 @@
     
     LOC: 23
 '''
-import CA04.prod.Command as command
-import CA04.prod.Status as status
-import CA04.prod.Data as data
+import prod.Command as command
+import prod.Status as status
+import prod.Data as data
 
 from collections import deque
 
